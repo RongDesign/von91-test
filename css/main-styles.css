@@ -1,0 +1,128 @@
+/* LESS Document */
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,700|Montserrat:400,700');
+/* Generic Styles */
+body {
+  font-size: 12px;
+}
+nav li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.container {
+  max-width: 800px;
+}
+.body-text p {
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  font-size: 1.2em;
+  line-height: 2.1;
+  margin-bottom: 45px;
+}
+.img-medium {
+  max-width: 380px;
+}
+.top-border {
+  border-top: 2px solid #fff;
+}
+/* Navigation Styles */
+.item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+.navbar-toggler {
+  padding: 3px 6px;
+  background-color: #fff;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/glyphicons-517-menu-hamburger.png) !important;
+  background-size: 90%;
+}
+.navbar-collapse {
+  background-color: #57585b;
+}
+.nav-scroll-bg {
+  -webkit-transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -ms-transition: background 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+.navbar-brand img {
+  -webkit-transition: padding 0.5s ease-in-out;
+  -moz-transition: padding 0.5s ease-in-out;
+  -ms-transition: padding 0.5s ease-in-out;
+  -o-transition: padding 0.5s ease-in-out;
+  transition: padding 0.5s ease-in-out;
+}
+/* Carousel Styles */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+.carousel-caption h3 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.carousel-control-prev-icon {
+  background-image: url(../images/glyphicons-217-circle-arrow-left.png);
+  padding: 15px;
+}
+.carousel-control-next-icon {
+  background-image: url(../images/glyphicons-218-circle-arrow-right.png);
+  padding: 15px;
+}
+.carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(87, 88, 91, 0.5);
+}
+/* Footer Styles */
+footer {
+  background-color: #57585b;
+}
+footer .row {
+  max-width: 90%;
+  margin: 0 auto;
+}
+footer .row .row {
+  max-width: 100%;
+}
+footer p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: normal;
+}
+/* Media Queries */
+@media (min-width: 768px) {
+  .body-text p {
+    font-size: 1.5em;
+  }
+  .navbar-collapse {
+    background-color: transparent;
+  }
+  footer .row {
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .body-text p {
+    font-size: 1.85em;
+  }
+}
